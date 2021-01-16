@@ -9,6 +9,7 @@ public class Exception03 {
 		} catch (IllegalArgumentException e) {
 			System.out.println("IllegalArgumentException例外が発生");
 			throw e;
+//			e.printStackTrace();
 		}
 		System.out.println("プログラム終了");
 	}
